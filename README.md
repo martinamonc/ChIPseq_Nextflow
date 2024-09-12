@@ -38,6 +38,9 @@ qsub -v workdir=<workdir> ./execute_pipeline.sh
 
 ### Index
 
-### Debug mode
+## After the execution
 
-After each successful run all the "work" subdirectories (which contain metadata and caches relative to each process that's been executed) will be deleted thanks to the `cleanup = true` in the .config file. This means that after a succesful run you won't be able to resume and all the processes will be run all over again. If you want to prevent this from happening you can just comment the `cleanup = true` line in the .config file and all work directories will be kept, so you will have to delete them manually.
+
+### Clean-up
+
+Once you're done running the pipeline, you can run the command `nextflow clean -f` inside the working directory (the one you specified at the beginning of the execution) and it will delete all the folders in the **work** folder created by Nextflow during your last run. If you want to delete folders relative to multiple different runs you can just run the same command multiple times. However, after cleaning the work folder you will lose all caches and temporary files so you won't be able to use the `-resume` feature and the pipeline will be run all over again.
