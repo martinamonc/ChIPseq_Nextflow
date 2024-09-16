@@ -1,6 +1,6 @@
 # ChIPseq_Nextflow - Pasini's lab ChIP-seq Nextflow pipeline
 
-This is a Nextflow pipeline to be run specifically on our PBS-based HPC. All the softwares used were taken from `this` singularity image.
+This is a Nextflow pipeline to be run specifically on our PBS-based HPC. All the softwares used were taken from [this] (https://hub.docker.com/layers/andreamariani/chipseq_snakemake/101122/images/sha256-9d5848ad1a967dea579cf935ca6c84e381bbf62c2ea63a1a5dc2feb177f6a2f1?context=explore) singularity image.
 
 ## Set-up
 
