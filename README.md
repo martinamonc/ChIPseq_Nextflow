@@ -16,7 +16,7 @@ with the paths in the last two columns and all the metadata in the columns prece
 * **sample**: sample name
 * **control**: control name
 * **spike**: TRUE if the sample has been spiked or FALSE if it hasn't
-* **is_input**: TRUE if the sample is to be used as a ChIP input or FALSE if it isn't
+* **is_input**: TRUE if the sample is to be used as a ChIP input or FALSE if it isn't, TRUE also for inputs sequenced just to alculate the ratio sample : spike-in, which won't be used to call peaks
 * **spike_control**: the name of the sample to be used as control for the spike normalization, NOSPIKE if **spike** = FALSE
 * **genome**: genome 
 * **lane**: sample lane number
