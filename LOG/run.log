@@ -1,0 +1,2898 @@
+
+ N E X T F L O W   ~  version 24.04.4
+
+Launching `/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/main.nf` [compassionate_hugle] DSL2 - revision: 6196d49315
+
+[-        ] MERGE -
+[-        ] ALIGN -
+
+[-        ] MERGE                 -
+[-        ] ALIGN                 -
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+
+[-        ] MERGE                 -
+[-        ] ALIGN                 -
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[-        ] QC:FASTQC             -
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[-        ] QC:INSERT_SIZE        -
+[-        ] QC:PLOT_FINGERPRINT   -
+
+[-        ] MERGE                 -
+[-        ] ALIGN                 -
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[-        ] QC:FASTQC             -
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[-        ] QC:INSERT_SIZE        -
+[-        ] QC:PLOT_FINGERPRINT   -
+[-        ] QC:MULTIQC            -
+
+[d9/31ce38] MERGE (1)             | 2 of 2, cached: 2
+[19/3ff273] ALIGN (2)             | 2 of 2, cached: 2
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[de/e27c7a] QC:FASTQC (2)         | 2 of 3, cached: 2
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[-        ] QC:INSERT_SIZE        -
+[-        ] QC:PLOT_FINGERPRINT   -
+[-        ] QC:MULTIQC            -
+
+[d7/7e1bab] MERGE (3)             | 5 of 8, cached: 5
+[19/3ff273] ALIGN (2)             | 2 of 2, cached: 2
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[79/33de28] QC:FASTQC (6)         | 3 of 6, cached: 3
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[00/7838fc] QC:INSERT_SIZE (1)    | 1 of 1, cached: 1
+[-        ] QC:PLOT_FINGERPRINT   -
+[-        ] QC:MULTIQC            -
+
+[66/f1be09] MERGE (7)             | 6 of 9, cached: 6
+[19/3ff273] ALIGN (2)             | 2 of 2, cached: 2
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[95/af7e57] QC:FASTQC (9)         | 7 of 11, cached: 7
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[ed/4a9cc9] QC:INSERT_SIZE (2)    | 2 of 2, cached: 2
+[-        ] QC:PLOT_FINGERPRINT   -
+[-        ] QC:MULTIQC            -
+
+executor >  pbspro (1)
+[66/f1be09] MERGE (7)                 | 6 of 9, cached: 6
+[19/3ff273] ALIGN (2)                 | 2 of 4, cached: 2
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[-        ] SPIKES:BAM2BIGWIG         -
+[08/af40d4] PEAKS:CALL_PEAKS (1)      | 1 of 1, cached: 1
+[ff/189cb8] PEAKS:CALL_BROADPEAKS (1) | 1 of 1, cached: 1
+[c6/c25ecb] PEAKS:FILTER_PEAKS (1)    | 1 of 1, cached: 1
+[-        ] PEAKS:ANNOTATE_PEAKS      -
+[a2/e18c23] QC:FASTQC (3)             | 7 of 11, cached: 7
+[00/17f7a0] QC:PHANTOM_PEAK_QUAL (1)  | 1 of 1, cached: 1
+[ed/4a9cc9] QC:INSERT_SIZE (2)        | 2 of 2, cached: 2
+[c4/aa8f80] QC:PLOT_FINGERPRINT (1)   | 1 of 1, cached: 1
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (1)
+[66/f1be09] MERGE (7)                 | 6 of 9, cached: 6
+[70/a5c826] ALIGN (7)                 | 4 of 7, cached: 4
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f3/5fc83c] SPIKES:BAM2BIGWIG (2)     | 2 of 2, cached: 2
+[e6/5276bb] PEAKS:CALL_PEAKS (2)      | 2 of 2, cached: 2
+[13/7d30dc] PEAKS:CALL_BROADPEAKS (2) | 2 of 2, cached: 2
+[c1/44d342] PEAKS:FILTER_PEAKS (2)    | 2 of 2, cached: 2
+[-        ] PEAKS:ANNOTATE_PEAKS      -
+[a2/e18c23] QC:FASTQC (3)             | 7 of 11, cached: 7
+[b5/268627] QC:PHANTOM_PEAK_QUAL (2)  | 2 of 2, cached: 2
+[0f/ca0272] QC:INSERT_SIZE (3)        | 3 of 3, cached: 3
+[6b/922b57] QC:PLOT_FINGERPRINT (2)   | 2 of 2, cached: 2
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (2)
+[66/f1be09] MERGE (7)                 | 6 of 9, cached: 6
+[70/a5c826] ALIGN (7)                 | 4 of 7, cached: 4
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[2e/c15068] SPIKES:BAM2BIGWIG (3)     | 3 of 3, cached: 3
+[4b/8c0460] PEAKS:CALL_PEAKS (3)      | 3 of 3, cached: 3
+[d8/1ab606] PEAKS:CALL_BROADPEAKS (3) | 3 of 3, cached: 3
+[72/d1db09] PEAKS:FILTER_PEAKS (3)    | 3 of 3, cached: 3
+[9f/7e8fbc] PEAKS:ANNOTATE_PEAKS (3)  | 3 of 3, cached: 3
+[4f/7d8a09] QC:FASTQC (4)             | 7 of 11, cached: 7
+[5b/6f3e39] QC:PHANTOM_PEAK_QUAL (3)  | 3 of 3, cached: 3
+[38/400b9a] QC:INSERT_SIZE (4)        | 4 of 4, cached: 4
+[4a/bb7df7] QC:PLOT_FINGERPRINT (3)   | 3 of 3, cached: 3
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+
+executor >  pbspro (2)
+[66/f1be09] MERGE (7)                 | 6 of 9, cached: 6
+[e5/d20f70] ALIGN (9)                 | 6 of 9, cached: 6
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[1c/c67bfb] SPIKES:BAM2BIGWIG (4)     | 4 of 4, cached: 4
+[11/6d2f4b] PEAKS:CALL_PEAKS (4)      | 4 of 4, cached: 4
+[ba/ea7c9b] PEAKS:CALL_BROADPEAKS (4) | 4 of 4, cached: 4
+[94/e231ce] PEAKS:FILTER_PEAKS (4)    | 4 of 4, cached: 4
+[9f/7e8fbc] PEAKS:ANNOTATE_PEAKS (3)  | 3 of 3, cached: 3
+[4f/7d8a09] QC:FASTQC (4)             | 7 of 11, cached: 7
+[27/cb0cd0] QC:PHANTOM_PEAK_QUAL (4)  | 4 of 4, cached: 4
+[94/bd82c8] QC:INSERT_SIZE (6)        | 6 of 6, cached: 6
+[f5/5f3b99] QC:PLOT_FINGERPRINT (4)   | 4 of 4, cached: 4
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+
+executor >  pbspro (3)
+[66/f1be09] MERGE (7)                 | 6 of 9, cached: 6
+[5c/13621f] ALIGN (10)                | 7 of 10, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+
+executor >  pbspro (5)
+[0b/ce21aa] MERGE (8)                 | 6 of 9, cached: 6
+[5c/13621f] ALIGN (10)                | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 05:20:48 PM 
+>> identifying nearest features...		 2024-10-11 05:20:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 05:20:51 PM 
+>> assigning genomic annotation...		 2024-10-11 05:20:51 PM 
+>> adding gene annotation...			 2024-10-11 05:21:11 PM 
+>> assigning chromosome lengths			 2024-10-11 05:21:12 PM 
+>> done...					 2024-10-11 05:21:12 PM 
+
+
+executor >  pbspro (7)
+[0b/5edf94] MERGE (9)                 | 6 of 9, cached: 6
+[5c/13621f] ALIGN (10)                | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 05:20:48 PM 
+>> identifying nearest features...		 2024-10-11 05:20:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 05:20:51 PM 
+>> assigning genomic annotation...		 2024-10-11 05:20:51 PM 
+>> adding gene annotation...			 2024-10-11 05:21:11 PM 
+>> assigning chromosome lengths			 2024-10-11 05:21:12 PM 
+>> done...					 2024-10-11 05:21:12 PM 
+
+
+executor >  pbspro (9)
+[0b/5edf94] MERGE (9)                 | 6 of 9, cached: 6
+[ed/7f0094] ALIGN (4)                 | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 05:20:48 PM 
+>> identifying nearest features...		 2024-10-11 05:20:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 05:20:51 PM 
+>> assigning genomic annotation...		 2024-10-11 05:20:51 PM 
+>> adding gene annotation...			 2024-10-11 05:21:11 PM 
+>> assigning chromosome lengths			 2024-10-11 05:21:12 PM 
+>> done...					 2024-10-11 05:21:12 PM 
+
+
+executor >  pbspro (11)
+[0b/5edf94] MERGE (9)                 | 6 of 9, cached: 6
+[d2/e11cc1] ALIGN (11)                | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 05:20:48 PM 
+>> identifying nearest features...		 2024-10-11 05:20:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 05:20:51 PM 
+>> assigning genomic annotation...		 2024-10-11 05:20:51 PM 
+>> adding gene annotation...			 2024-10-11 05:21:11 PM 
+>> assigning chromosome lengths			 2024-10-11 05:21:12 PM 
+>> done...					 2024-10-11 05:21:12 PM 
+
+
+executor >  pbspro (11)
+[0b/5edf94] MERGE (9)                 | 6 of 9, cached: 6
+[d2/e11cc1] ALIGN (11)                | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 05:20:48 PM 
+>> identifying nearest features...		 2024-10-11 05:20:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 05:20:51 PM 
+>> assigning genomic annotation...		 2024-10-11 05:20:51 PM 
+>> adding gene annotation...			 2024-10-11 05:21:11 PM 
+>> assigning chromosome lengths			 2024-10-11 05:21:12 PM 
+>> done...					 2024-10-11 05:21:12 PM 
+
+
+executor >  pbspro (11)
+[0b/5edf94] MERGE (9)                 | 6 of 9, cached: 6
+[d2/e11cc1] ALIGN (11)                | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 05:20:48 PM 
+>> identifying nearest features...		 2024-10-11 05:20:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 05:20:51 PM 
+>> assigning genomic annotation...		 2024-10-11 05:20:51 PM 
+>> adding gene annotation...			 2024-10-11 05:21:11 PM 
+>> assigning chromosome lengths			 2024-10-11 05:21:12 PM 
+>> done...					 2024-10-11 05:21:12 PM 
+
+
+executor >  pbspro (11)
+[0b/5edf94] MERGE (9)                 | 6 of 9, cached: 6
+[d2/e11cc1] ALIGN (11)                | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 7 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-11 04:46:12 PM 
+>> identifying nearest features...		 2024-10-11 04:46:13 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:46:14 PM 
+>> assigning genomic annotation...		 2024-10-11 04:46:14 PM 
+>> adding gene annotation...			 2024-10-11 04:46:33 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:33 PM 
+>> done...					 2024-10-11 04:46:33 PM 
+
+>> preparing features information...		 2024-10-11 04:41:20 PM 
+>> identifying nearest features...		 2024-10-11 04:41:22 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:41:23 PM 
+>> assigning genomic annotation...		 2024-10-11 04:41:23 PM 
+>> adding gene annotation...			 2024-10-11 04:41:42 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:43 PM 
+>> done...					 2024-10-11 04:41:43 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:10 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 04:45:44 PM 
+>> identifying nearest features...		 2024-10-11 04:45:45 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:45:46 PM 
+>> assigning genomic annotation...		 2024-10-11 04:45:46 PM 
+>> adding gene annotation...			 2024-10-11 04:46:06 PM 
+>> assigning chromosome lengths			 2024-10-11 04:46:07 PM 
+>> done...					 2024-10-11 04:46:07 PM 
+
+>> preparing features information...		 2024-10-11 04:40:48 PM 
+>> identifying nearest features...		 2024-10-11 04:40:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 04:40:50 PM 
+>> assigning genomic annotation...		 2024-10-11 04:40:50 PM 
+>> adding gene annotation...			 2024-10-11 04:41:10 PM 
+>> assigning chromosome lengths			 2024-10-11 04:41:11 PM 
+>> done...					 2024-10-11 04:41:11 PM 
+
+>> preparing features information...		 2024-10-11 05:20:48 PM 
+>> identifying nearest features...		 2024-10-11 05:20:49 PM 
+>> calculating distance from peak to TSS...	 2024-10-11 05:20:51 PM 
+>> assigning genomic annotation...		 2024-10-11 05:20:51 PM 
+>> adding gene annotation...			 2024-10-11 05:21:11 PM 
+>> assigning chromosome lengths			 2024-10-11 05:21:12 PM 
+>> done...					 2024-10-11 05:21:12 PM 
+
+
+executor >  pbspro (11)
+[0b/5edf94] MERGE (9)                 | 6 of 9, cached: 6
+[d2/e11cc1] ALIGN (11)                | 7 of 11, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 8 of 11, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  pbspro (11)
+[0b/ce21aa] MERGE (8)                 | 7 of 9, cached: 6
+[d2/e11cc1] ALIGN (11)                | 7 of 12, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[fd/6a9334] QC:FASTQC (11)            | 8 of 12, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  pbspro (13)
+[0b/ce21aa] MERGE (8)                 | 7 of 9, cached: 6
+[d4/048336] ALIGN (12)                | 7 of 12, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[ce/ca228b] QC:FASTQC (12)            | 8 of 12, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (14)
+[46/6fe258] MERGE (6)                 | 8 of 9, cached: 6
+[d4/048336] ALIGN (12)                | 7 of 13, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[58/21f586] QC:FASTQC (13)            | 8 of 13, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (15)
+[46/6fe258] MERGE (6)                 | 8 of 9, cached: 6
+[e7/6b31a0] ALIGN (13)                | 7 of 13, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[58/21f586] QC:FASTQC (13)            | 8 of 13, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (15)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[58/21f586] QC:FASTQC (13)            | 8 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 8 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 8 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 8 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[a2/e18c23] QC:FASTQC (3)             | 9 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[a2/e18c23] QC:FASTQC (3)             | 9 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[4f/7d8a09] QC:FASTQC (4)             | 10 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[ce/ca228b] QC:FASTQC (12)            | 11 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[58/21f586] QC:FASTQC (13)            | 12 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[58/21f586] QC:FASTQC (13)            | 12 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 7 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 6, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 6, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 7, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (17)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[a5/778f22] SPIKES:BAM2BIGWIG (6)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 7, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (18)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[58/8eaddd] QC:PHANTOM_PEAK_QUAL (6)  | 6 of 7, cached: 6
+[9d/7846e0] QC:INSERT_SIZE (7)        | 7 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 6 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 7 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 6 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 7 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 6 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 6 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 6 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 6 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 6 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 7 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 6 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 7 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[5c/a3328e] QC:FASTQC (14)            | 13 of 14, cached: 7
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 7 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d2/e11cc1] ALIGN (11)                | 8 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 7 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 7 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (20)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 7 of 7, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 7 of 7, cached: 6
+[b2/e77d3d] QC:INSERT_SIZE (8)        | 8 of 8, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (21)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 7 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[f1/b7135d] QC:PHANTOM_PEAK_QUAL (7)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 8 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (22)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 7 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 8 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (22)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[6a/72db59] SPIKES:BAM2BIGWIG (7)     | 7 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 8 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (23)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[22/a6e982] SPIKES:BAM2BIGWIG (8)     | 7 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 8 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (23)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[22/a6e982] SPIKES:BAM2BIGWIG (8)     | 7 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 8 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (23)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[22/a6e982] SPIKES:BAM2BIGWIG (8)     | 7 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 9 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (23)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[9f/f8be23] ALIGN (3)                 | 9 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[22/a6e982] SPIKES:BAM2BIGWIG (8)     | 8 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 9 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (23)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[22/a6e982] SPIKES:BAM2BIGWIG (8)     | 8 of 8, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 8, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 9 of 9, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (24)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 8 of 9, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 9, cached: 6
+[a3/cd4550] QC:INSERT_SIZE (9)        | 9 of 10, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (25)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 8 of 9, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 7 of 9, cached: 6
+[3a/8da852] QC:INSERT_SIZE (10)       | 9 of 10, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (26)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 8 of 9, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a7/339479] QC:PHANTOM_PEAK_QUAL (9)  | 7 of 9, cached: 6
+[3a/8da852] QC:INSERT_SIZE (10)       | 9 of 10, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (26)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 8 of 9, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a7/339479] QC:PHANTOM_PEAK_QUAL (9)  | 7 of 9, cached: 6
+[3a/8da852] QC:INSERT_SIZE (10)       | 9 of 10, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (26)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 8 of 9, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a7/339479] QC:PHANTOM_PEAK_QUAL (9)  | 7 of 9, cached: 6
+[3a/8da852] QC:INSERT_SIZE (10)       | 9 of 10, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (26)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 9 of 9, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a7/339479] QC:PHANTOM_PEAK_QUAL (9)  | 7 of 9, cached: 6
+[3a/8da852] QC:INSERT_SIZE (10)       | 9 of 10, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (26)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[f6/14a4fb] ALIGN (5)                 | 10 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 9 of 9, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 8 of 9, cached: 6
+[3a/8da852] QC:INSERT_SIZE (10)       | 9 of 10, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (26)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 9 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 8 of 10, cached: 6
+[3a/8da852] QC:INSERT_SIZE (10)       | 9 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (27)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 9 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 8 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 9 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (27)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[f8/80c9f1] SPIKES:BAM2BIGWIG (9)     | 9 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[25/018f9a] QC:PHANTOM_PEAK_QUAL (8)  | 8 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 9 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (29)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[89/712b7f] SPIKES:BAM2BIGWIG (10)    | 9 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[bf/4b9f99] QC:PHANTOM_PEAK_QUAL (10) | 8 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 9 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (29)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[89/712b7f] SPIKES:BAM2BIGWIG (10)    | 9 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[bf/4b9f99] QC:PHANTOM_PEAK_QUAL (10) | 8 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 9 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (29)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[89/712b7f] SPIKES:BAM2BIGWIG (10)    | 9 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[bf/4b9f99] QC:PHANTOM_PEAK_QUAL (10) | 8 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 10 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (29)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[89/712b7f] SPIKES:BAM2BIGWIG (10)    | 9 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a7/339479] QC:PHANTOM_PEAK_QUAL (9)  | 9 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 10 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (29)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[89/712b7f] SPIKES:BAM2BIGWIG (10)    | 10 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a7/339479] QC:PHANTOM_PEAK_QUAL (9)  | 9 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 10 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (29)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[d4/048336] ALIGN (12)                | 11 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[89/712b7f] SPIKES:BAM2BIGWIG (10)    | 10 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[bf/4b9f99] QC:PHANTOM_PEAK_QUAL (10) | 10 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 10 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (29)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 12 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[89/712b7f] SPIKES:BAM2BIGWIG (10)    | 10 of 10, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[bf/4b9f99] QC:PHANTOM_PEAK_QUAL (10) | 10 of 10, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 10 of 11, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (30)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 12 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[bf/4b9f99] QC:PHANTOM_PEAK_QUAL (10) | 10 of 11, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 10 of 12, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (30)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 12 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[bf/4b9f99] QC:PHANTOM_PEAK_QUAL (10) | 10 of 11, cached: 6
+[fb/3bfc6e] QC:INSERT_SIZE (11)       | 10 of 12, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (32)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 12 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[0a/437cdb] QC:INSERT_SIZE (12)       | 10 of 12, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (32)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 12 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[0a/437cdb] QC:INSERT_SIZE (12)       | 10 of 12, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (32)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 12 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[0a/437cdb] QC:INSERT_SIZE (12)       | 10 of 12, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (32)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[cf/eb090a] ALIGN (14)                | 12 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 6, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[0a/437cdb] QC:INSERT_SIZE (12)       | 11 of 12, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (32)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                 | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6b/3f7c9f] PEAKS:CALL_PEAKS (6)      | 6 of 9, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 6, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[0a/437cdb] QC:INSERT_SIZE (12)       | 11 of 13, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 9, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (33)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                 | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)      | 6 of 11, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[0a/437cdb] QC:INSERT_SIZE (12)       | 11 of 13, cached: 7
+[01/a5db06] QC:PLOT_FINGERPRINT (6)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (34)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                 | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)      | 6 of 11, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[0a/437cdb] QC:INSERT_SIZE (12)       | 11 of 13, cached: 7
+[4a/0f68e4] QC:PLOT_FINGERPRINT (8)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (35)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                 | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)      | 6 of 11, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)       | 11 of 13, cached: 7
+[4a/0f68e4] QC:PLOT_FINGERPRINT (8)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (38)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                 | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[88/c1fa04] PEAKS:CALL_PEAKS (9)      | 6 of 11, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)       | 11 of 13, cached: 7
+[5d/e2eb85] QC:PLOT_FINGERPRINT (7)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (41)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                 | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 6 of 11, cached: 6
+[b2/def204] PEAKS:CALL_BROADPEAKS (6) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)       | 11 of 13, cached: 7
+[5d/e2eb85] QC:PLOT_FINGERPRINT (7)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (45)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                 | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)    | 10 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 6 of 11, cached: 6
+[bf/034479] PEAKS:CALL_BROADPEAKS (9) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11) | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)       | 11 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)  | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                  | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 10 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 11, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 11 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                  | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 10 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 11, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 11 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                  | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 10 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 11, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 11 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                  | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 10 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 11, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 11 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                  | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 11 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 11, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 11 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                  | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 11 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 11, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 11 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[ed/7f0094] ALIGN (4)                  | 13 of 14, cached: 7
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 11 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 11, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 12 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 11, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (48)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 11 of 11, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 12, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 11, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 11, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 12 of 13, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (49)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 12, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 12, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 12 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (49)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 6 of 12, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 12, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 12 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (50)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[e7/57c8e8] SPIKES:BAM2BIGWIG (11)     | 11 of 12, cached: 6
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 6 of 12, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 12, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 12 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (52)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 6 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 10 of 12, cached: 6
+[36/5b98e3] QC:INSERT_SIZE (13)        | 12 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (54)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 6 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 12 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (54)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 6 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 12 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (54)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 6 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 6, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (54)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[9b/9f3930] PEAKS:FILTER_PEAKS (6)     | 6 of 7, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (55)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[2b/e69877] PEAKS:FILTER_PEAKS (7)     | 6 of 7, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 6, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (55)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[2b/e69877] PEAKS:FILTER_PEAKS (7)     | 7 of 7, cached: 6
+[ab/cf8b5d] PEAKS:ANNOTATE_PEAKS (6)   | 6 of 7, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (56)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[2b/e69877] PEAKS:FILTER_PEAKS (7)     | 7 of 7, cached: 6
+[94/64d6c0] PEAKS:ANNOTATE_PEAKS (7)   | 6 of 7, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (56)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[2b/e69877] PEAKS:FILTER_PEAKS (7)     | 7 of 7, cached: 6
+[94/64d6c0] PEAKS:ANNOTATE_PEAKS (7)   | 6 of 7, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (56)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 6 of 12, cached: 6
+[2b/e69877] PEAKS:FILTER_PEAKS (7)     | 7 of 7, cached: 6
+[94/64d6c0] PEAKS:ANNOTATE_PEAKS (7)   | 6 of 7, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (56)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[d4/ef6117] PEAKS:CALL_BROADPEAKS (7)  | 7 of 12, cached: 6
+[2b/e69877] PEAKS:FILTER_PEAKS (7)     | 7 of 7, cached: 6
+[94/64d6c0] PEAKS:ANNOTATE_PEAKS (7)   | 6 of 7, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (56)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[6e/9c2b9b] PEAKS:CALL_PEAKS (7)       | 7 of 12, cached: 6
+[d4/ef6117] PEAKS:CALL_BROADPEAKS (7)  | 7 of 12, cached: 6
+[2b/e69877] PEAKS:FILTER_PEAKS (7)     | 7 of 7, cached: 6
+[94/64d6c0] PEAKS:ANNOTATE_PEAKS (7)   | 7 of 7, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+>> preparing features information...		 2024-10-23 06:33:27 PM 
+>> identifying nearest features...		 2024-10-23 06:33:29 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:33:30 PM 
+>> assigning genomic annotation...		 2024-10-23 06:33:30 PM 
+>> adding gene annotation...			 2024-10-23 06:33:49 PM 
+>> assigning chromosome lengths			 2024-10-23 06:33:49 PM 
+>> done...					 2024-10-23 06:33:49 PM 
+
+
+executor >  pbspro (57)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[88/c1fa04] PEAKS:CALL_PEAKS (9)      | 8 of 12, cached: 6
+[d4/ef6117] PEAKS:CALL_BROADPEAKS (7) | 7 of 12, cached: 6
+[f4/da572f] PEAKS:FILTER_PEAKS (8)    | 7 of 8, cached: 6
+[94/64d6c0] PEAKS:ANNOTATE_PEAKS (7)  | 7 of 7, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-23 06:33:27 PM 
+>> identifying nearest features...		 2024-10-23 06:33:29 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:33:30 PM 
+>> assigning genomic annotation...		 2024-10-23 06:33:30 PM 
+>> adding gene annotation...			 2024-10-23 06:33:49 PM 
+>> assigning chromosome lengths			 2024-10-23 06:33:49 PM 
+>> done...					 2024-10-23 06:33:49 PM 
+
+
+executor >  pbspro (58)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[88/c1fa04] PEAKS:CALL_PEAKS (9)      | 8 of 12, cached: 6
+[d4/ef6117] PEAKS:CALL_BROADPEAKS (7) | 7 of 12, cached: 6
+[f4/da572f] PEAKS:FILTER_PEAKS (8)    | 8 of 8, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)  | 7 of 8, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-23 06:33:27 PM 
+>> identifying nearest features...		 2024-10-23 06:33:29 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:33:30 PM 
+>> assigning genomic annotation...		 2024-10-23 06:33:30 PM 
+>> adding gene annotation...			 2024-10-23 06:33:49 PM 
+>> assigning chromosome lengths			 2024-10-23 06:33:49 PM 
+>> done...					 2024-10-23 06:33:49 PM 
+
+
+executor >  pbspro (58)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[88/c1fa04] PEAKS:CALL_PEAKS (9)      | 8 of 12, cached: 6
+[d4/ef6117] PEAKS:CALL_BROADPEAKS (7) | 7 of 12, cached: 6
+[f4/da572f] PEAKS:FILTER_PEAKS (8)    | 8 of 8, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)  | 7 of 8, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+
+
+
+
+
+
+
+
+
+executor >  pbspro (58)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[88/c1fa04] PEAKS:CALL_PEAKS (9)      | 8 of 12, cached: 6
+[d4/ef6117] PEAKS:CALL_BROADPEAKS (7) | 7 of 12, cached: 6
+[f4/da572f] PEAKS:FILTER_PEAKS (8)    | 8 of 8, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)  | 7 of 8, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+
+
+
+
+
+
+
+
+
+executor >  pbspro (59)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 11 of 12, cached: 6
+[e5/9e61fc] PEAKS:CALL_BROADPEAKS (8) | 8 of 12, cached: 6
+[f4/da572f] PEAKS:FILTER_PEAKS (8)    | 8 of 11, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)  | 7 of 8, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (61)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 11 of 12, cached: 6
+[bf/034479] PEAKS:CALL_BROADPEAKS (9) | 9 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)   | 8 of 11, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)  | 7 of 8, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (61)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 11 of 12, cached: 6
+[bf/034479] PEAKS:CALL_BROADPEAKS (9) | 9 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)   | 11 of 11, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)  | 7 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 11 of 12, cached: 6
+[bf/034479] PEAKS:CALL_BROADPEAKS (9) | 9 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)   | 11 of 11, cached: 6
+[2b/303136] PEAKS:ANNOTATE_PEAKS (11) | 7 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 11 of 12, cached: 6
+[bf/034479] PEAKS:CALL_BROADPEAKS (9) | 9 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)   | 11 of 11, cached: 6
+[2b/303136] PEAKS:ANNOTATE_PEAKS (11) | 7 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                 | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN              -
+[-        ] SPIKES:CLEAN_SPIKE        -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)    | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)     | 11 of 12, cached: 6
+[bf/034479] PEAKS:CALL_BROADPEAKS (9) | 9 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)   | 11 of 11, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)  | 8 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)             | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12) | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)       | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)  | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                -
+>> preparing features information...		 2024-10-23 06:34:37 PM 
+>> identifying nearest features...		 2024-10-23 06:34:38 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:34:39 PM 
+>> assigning genomic annotation...		 2024-10-23 06:34:39 PM 
+>> adding gene annotation...			 2024-10-23 06:34:58 PM 
+>> assigning chromosome lengths			 2024-10-23 06:34:59 PM 
+>> done...					 2024-10-23 06:34:59 PM 
+
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 11 of 12, cached: 6
+[5b/ca21a6] PEAKS:CALL_BROADPEAKS (11) | 10 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)    | 11 of 11, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)   | 8 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 10 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+
+
+
+
+
+
+
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 11 of 12, cached: 6
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 11 of 12, cached: 6
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)    | 11 of 11, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)   | 8 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+
+
+
+
+
+
+
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 11 of 12, cached: 6
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)    | 11 of 11, cached: 6
+[4e/2af5da] PEAKS:ANNOTATE_PEAKS (8)   | 8 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 11 of 12, cached: 6
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)    | 11 of 11, cached: 6
+[2b/303136] PEAKS:ANNOTATE_PEAKS (11)  | 11 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 6 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+>> preparing features information...		 2024-10-23 06:35:09 PM 
+>> identifying nearest features...		 2024-10-23 06:35:10 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:35:12 PM 
+>> assigning genomic annotation...		 2024-10-23 06:35:12 PM 
+>> adding gene annotation...			 2024-10-23 06:35:31 PM 
+>> assigning chromosome lengths			 2024-10-23 06:35:31 PM 
+>> done...					 2024-10-23 06:35:31 PM 
+
+>> preparing features information...		 2024-10-23 06:35:09 PM 
+>> identifying nearest features...		 2024-10-23 06:35:10 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:35:12 PM 
+>> assigning genomic annotation...		 2024-10-23 06:35:12 PM 
+>> adding gene annotation...			 2024-10-23 06:35:33 PM 
+>> assigning chromosome lengths			 2024-10-23 06:35:34 PM 
+>> done...					 2024-10-23 06:35:34 PM 
+
+>> preparing features information...		 2024-10-23 06:35:09 PM 
+>> identifying nearest features...		 2024-10-23 06:35:10 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:35:12 PM 
+>> assigning genomic annotation...		 2024-10-23 06:35:12 PM 
+>> adding gene annotation...			 2024-10-23 06:35:32 PM 
+>> assigning chromosome lengths			 2024-10-23 06:35:32 PM 
+>> done...					 2024-10-23 06:35:32 PM 
+
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[db/04620c] PEAKS:CALL_PEAKS (11)      | 11 of 12, cached: 6
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)    | 11 of 11, cached: 6
+[2b/303136] PEAKS:ANNOTATE_PEAKS (11)  | 11 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[5d/e2eb85] QC:PLOT_FINGERPRINT (7)    | 7 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  pbspro (64)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[0c/bbd78d] PEAKS:FILTER_PEAKS (11)    | 11 of 11, cached: 6
+[2b/303136] PEAKS:ANNOTATE_PEAKS (11)  | 11 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[26/793038] QC:PLOT_FINGERPRINT (11)   | 8 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  pbspro (65)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 11 of 12, cached: 6
+[2b/303136] PEAKS:ANNOTATE_PEAKS (11)  | 11 of 11, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[26/793038] QC:PLOT_FINGERPRINT (11)   | 8 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (65)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[2b/303136] PEAKS:ANNOTATE_PEAKS (11)  | 11 of 12, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[26/793038] QC:PLOT_FINGERPRINT (11)   | 8 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 11 of 12, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[26/793038] QC:PLOT_FINGERPRINT (11)   | 8 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 11 of 12, cached: 6
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[26/793038] QC:PLOT_FINGERPRINT (11)   | 8 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[26/793038] QC:PLOT_FINGERPRINT (11)   | 8 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+>> preparing features information...		 2024-10-23 06:39:16 PM 
+>> identifying nearest features...		 2024-10-23 06:39:17 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:39:18 PM 
+>> assigning genomic annotation...		 2024-10-23 06:39:18 PM 
+>> adding gene annotation...			 2024-10-23 06:39:37 PM 
+>> assigning chromosome lengths			 2024-10-23 06:39:37 PM 
+>> done...					 2024-10-23 06:39:37 PM 
+
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[4a/0f68e4] QC:PLOT_FINGERPRINT (8)    | 9 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+>> preparing features information...		 2024-10-23 06:39:16 PM 
+>> identifying nearest features...		 2024-10-23 06:39:17 PM 
+>> calculating distance from peak to TSS...	 2024-10-23 06:39:18 PM 
+>> assigning genomic annotation...		 2024-10-23 06:39:18 PM 
+>> adding gene annotation...			 2024-10-23 06:39:37 PM 
+>> assigning chromosome lengths			 2024-10-23 06:39:37 PM 
+>> done...					 2024-10-23 06:39:37 PM 
+
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[d8/ea81f9] PEAKS:CALL_BROADPEAKS (10) | 11 of 12, cached: 6
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 10 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+
+
+
+
+
+
+
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 12 of 12, cached: 6 ✔
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[f4/2fd373] QC:PLOT_FINGERPRINT (10)   | 10 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+
+
+
+
+
+
+
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 12 of 12, cached: 6 ✔
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[cd/aea204] QC:PLOT_FINGERPRINT (9)    | 11 of 12, cached: 6
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 12 of 12, cached: 6 ✔
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[76/771752] QC:PHANTOM_PEAK_QUAL (11)  | 11 of 12, cached: 6
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 6 ✔
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 12 of 12, cached: 6 ✔
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 12 of 12, cached: 6 ✔
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 6 ✔
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 12 of 12, cached: 6 ✔
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 12 of 12, cached: 6 ✔
+[95/f9beb9] QC:INSERT_SIZE (14)        | 13 of 14, cached: 7 ✔
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 6 ✔
+[-        ] QC:MULTIQC                 -
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 12 of 12, cached: 6 ✔
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 12 of 12, cached: 6 ✔
+[3a/8da852] QC:INSERT_SIZE (10)        | 14 of 14, cached: 7 ✔
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 6 ✔
+[64/4da186] QC:MULTIQC (1)             | 1 of 1, cached: 1 ✔
+
+executor >  pbspro (66)
+[0b/5edf94] MERGE (9)                  | 9 of 9, cached: 6 ✔
+[e7/6b31a0] ALIGN (13)                 | 14 of 14, cached: 7 ✔
+[-        ] SPIKES:ALIGN               -
+[-        ] SPIKES:CLEAN_SPIKE         -
+[68/10f4f7] SPIKES:BAM2BIGWIG (12)     | 12 of 12, cached: 6 ✔
+[1c/0b6be4] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 6 ✔
+[b5/45d313] PEAKS:CALL_BROADPEAKS (12) | 12 of 12, cached: 6 ✔
+[ca/9e3b79] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 6 ✔
+[23/58216a] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 6 ✔
+[78/cc2f0a] QC:FASTQC (5)              | 14 of 14, cached: 7 ✔
+[a8/4c2daa] QC:PHANTOM_PEAK_QUAL (12)  | 12 of 12, cached: 6 ✔
+[3a/8da852] QC:INSERT_SIZE (10)        | 14 of 14, cached: 7 ✔
+[0b/c07a6c] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 6 ✔
+[64/4da186] QC:MULTIQC (1)             | 1 of 1, cached: 1 ✔
+Completed at: 23-Oct-2024 19:05:52
+Duration    : 1h 47m 39s
+CPU hours   : 188.3 (54.5% cached)
+Succeeded   : 66
+Cached      : 70
+
+
