@@ -1,10 +1,8 @@
 # ChIPseq_Nextflow - Pasini's lab ChIP-seq Nextflow pipeline
 
-<<<<<<< HEAD
 This is a Nextflow pipeline to be run specifically on our PBS-based HPC. All the softwares used were taken from [this](https://hub.docker.com/layers/andreamariani/chipseq_snakemake/101122/images/sha256-9d5848ad1a967dea579cf935ca6c84e381bbf62c2ea63a1a5dc2feb177f6a2f1?context=explore) singularity image.
 =======
-This is a Nextflow pipeline to be run specifically on our PBS-based HPC. All the softwares used were taken from [this](https://hub.docker.com/layers/andreamariani/chipseq_snakemake/101122/images/sha256-9d5848ad1a967dea579cf935ca6c84e381bbf62c2ea63a1a5dc2feb177f6a2f1?context=explore) singularity image. ciao
->>>>>>> ff1e1361f59fd2f3366b01dd7ec7077e660e1158
+This is a Nextflow pipeline to be run specifically on our PBS-based HPC. All the softwares used were taken from [this](https://hub.docker.com/layers/andreamariani/chipseq_snakemake/101122/images/sha256-9d5848ad1a967dea579cf935ca6c84e381bbf62c2ea63a1a5dc2feb177f6a2f1?context=explore) singularity image.
 
 ## Set-up
 
@@ -22,20 +20,16 @@ with the paths in the last two columns and all the metadata in the columns prece
 * **spike**: TRUE if the sample has been spiked or FALSE if it hasn't
 * **is_input**: TRUE if the sample is to be used as a ChIP input or FALSE if it isn't, TRUE also for inputs sequenced just to alculate the ratio sample : spike-in, which won't be used to call peaks
 * **spike_control**: the name of the sample to be used as control for the spike normalization, NOSPIKE if **spike** = FALSE
-<<<<<<< HEAD
 * **genome**: genome
 * **lane**: sample lane number
 * **fq1**: path to sample R1 FASTA file
 * **fq2**: path to sample R2 FASTA file
-
-=======
 * **genome**: genome 
 * **lane**: sample lane number
 * **fq1**: path to sample R1 FASTA file 
 * **fq2**: path to sample R2 FASTA file
 
 
->>>>>>> ff1e1361f59fd2f3366b01dd7ec7077e660e1158
 ### Parameter configuration
 
 The user must specify their preferences for pipeline execution in the `params` section of the `nextflow.config` file. There are some fields that must be inevitably defined by the user as they depend on the user's directory organization, while the other ones deal with memory allocation and process-specific parameters, for which the user can use the default settings.
