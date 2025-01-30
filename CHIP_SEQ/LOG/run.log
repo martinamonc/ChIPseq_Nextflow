@@ -1,0 +1,1562 @@
+
+ N E X T F L O W   ~  version 24.04.4
+
+Launching `/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/main.nf` [scruffy_cantor] DSL2 - revision: 32dd704df7
+
+[-        ] MERGE -
+
+[-        ] MERGE                 -
+[-        ] ALIGN                 -
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+
+[-        ] MERGE                 -
+[-        ] ALIGN                 -
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[-        ] QC:FASTQC             -
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[-        ] QC:INSERT_SIZE        -
+[-        ] QC:PLOT_FINGERPRINT   -
+
+[-        ] MERGE                 -
+[-        ] ALIGN                 -
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[-        ] QC:FASTQC             -
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[-        ] QC:INSERT_SIZE        -
+[-        ] QC:PLOT_FINGERPRINT   -
+[-        ] QC:MULTIQC            -
+
+[-        ] MERGE                 -
+[-        ] ALIGN                 -
+[-        ] SPIKES:ALIGN          -
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[e7/88bb43] QC:FASTQC (1)         | 2 of 2, cached: 2
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[-        ] QC:INSERT_SIZE        -
+[-        ] QC:PLOT_FINGERPRINT   -
+[-        ] QC:MULTIQC            -
+
+[13/3ef6c5] MERGE (5)             | 5 of 5, cached: 5
+[93/dad22c] ALIGN (1)             | 2 of 2, cached: 2
+[9d/395398] SPIKES:ALIGN (1)      | 1 of 1, cached: 1
+[-        ] SPIKES:CLEAN_SPIKE    -
+[-        ] SPIKES:BAM2BIGWIG     -
+[-        ] PEAKS:CALL_PEAKS      -
+[-        ] PEAKS:CALL_BROADPEAKS -
+[-        ] PEAKS:FILTER_PEAKS    -
+[-        ] PEAKS:ANNOTATE_PEAKS  -
+[8a/873bd6] QC:FASTQC (6)         | 6 of 6, cached: 6
+[-        ] QC:PHANTOM_PEAK_QUAL  -
+[-        ] QC:INSERT_SIZE        -
+[-        ] QC:PLOT_FINGERPRINT   -
+[-        ] QC:MULTIQC            -
+
+[6c/8698d2] MERGE (7)              | 6 of 6, cached: 6
+[93/dad22c] ALIGN (1)              | 2 of 2, cached: 2
+[9d/395398] SPIKES:ALIGN (1)       | 1 of 1, cached: 1
+[9c/c32bc5] SPIKES:CLEAN_SPIKE (1) | 1 of 1, cached: 1
+[-        ] SPIKES:BAM2BIGWIG      -
+[-        ] PEAKS:CALL_PEAKS       -
+[-        ] PEAKS:CALL_BROADPEAKS  -
+[-        ] PEAKS:FILTER_PEAKS     -
+[-        ] PEAKS:ANNOTATE_PEAKS   -
+[8a/873bd6] QC:FASTQC (6)          | 6 of 6, cached: 6
+[-        ] QC:PHANTOM_PEAK_QUAL   -
+[-        ] QC:INSERT_SIZE         -
+[-        ] QC:PLOT_FINGERPRINT    -
+[-        ] QC:MULTIQC             -
+
+[22/a472f1] MERGE (9)               | 9 of 9, cached: 9
+[93/dad22c] ALIGN (1)               | 2 of 2, cached: 2
+[eb/7ba36e] SPIKES:ALIGN (3)        | 3 of 3, cached: 3
+[9c/c32bc5] SPIKES:CLEAN_SPIKE (1)  | 1 of 1, cached: 1
+[-        ] SPIKES:BAM2BIGWIG       -
+[-        ] PEAKS:CALL_PEAKS        -
+[-        ] PEAKS:CALL_BROADPEAKS   -
+[-        ] PEAKS:FILTER_PEAKS      -
+[-        ] PEAKS:ANNOTATE_PEAKS    -
+[20/d36fd8] QC:FASTQC (8)           | 8 of 8, cached: 8
+[-        ] QC:PHANTOM_PEAK_QUAL    -
+[b8/1e5e62] QC:INSERT_SIZE (2)      | 2 of 2, cached: 2
+[f1/555f33] QC:PLOT_FINGERPRINT (1) | 1 of 1, cached: 1
+[-        ] QC:MULTIQC              -
+
+[7c/5fb537] MERGE (14)               | 14 of 14, cached: 14
+[a4/4101d7] ALIGN (3)                | 3 of 3, cached: 3
+[eb/7ba36e] SPIKES:ALIGN (3)         | 3 of 3, cached: 3
+[9c/c32bc5] SPIKES:CLEAN_SPIKE (1)   | 1 of 1, cached: 1
+[-        ] SPIKES:BAM2BIGWIG        -
+[4e/7eb3f5] PEAKS:CALL_PEAKS (1)     | 1 of 1, cached: 1
+[-        ] PEAKS:CALL_BROADPEAKS    -
+[-        ] PEAKS:FILTER_PEAKS       -
+[-        ] PEAKS:ANNOTATE_PEAKS     -
+[2a/761668] QC:FASTQC (15)           | 15 of 15, cached: 15
+[61/3750db] QC:PHANTOM_PEAK_QUAL (1) | 1 of 1, cached: 1
+[b8/1e5e62] QC:INSERT_SIZE (2)       | 2 of 2, cached: 2
+[f1/555f33] QC:PLOT_FINGERPRINT (1)  | 1 of 1, cached: 1
+[-        ] QC:MULTIQC               -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+
+[7c/5fb537] MERGE (14)                | 14 of 14, cached: 14
+[a4/4101d7] ALIGN (3)                 | 3 of 3, cached: 3
+[eb/7ba36e] SPIKES:ALIGN (3)          | 3 of 3, cached: 3
+[9c/c32bc5] SPIKES:CLEAN_SPIKE (1)    | 1 of 1, cached: 1
+[-        ] SPIKES:BAM2BIGWIG         -
+[4e/7eb3f5] PEAKS:CALL_PEAKS (1)      | 1 of 1, cached: 1
+[9e/83fc9a] PEAKS:CALL_BROADPEAKS (1) | 1 of 1, cached: 1
+[-        ] PEAKS:FILTER_PEAKS        -
+[-        ] PEAKS:ANNOTATE_PEAKS      -
+[2a/761668] QC:FASTQC (15)            | 15 of 15, cached: 15
+[61/3750db] QC:PHANTOM_PEAK_QUAL (1)  | 1 of 1, cached: 1
+[40/6bb2f9] QC:INSERT_SIZE (3)        | 3 of 3, cached: 3
+[f1/555f33] QC:PLOT_FINGERPRINT (1)   | 1 of 1, cached: 1
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+
+[8d/722011] MERGE (18)                | 18 of 18, cached: 18
+[1d/4cd7bd] ALIGN (5)                 | 5 of 5, cached: 5
+[8b/5a5f02] SPIKES:ALIGN (6)          | 6 of 6, cached: 6
+[b8/3b241b] SPIKES:CLEAN_SPIKE (3)    | 2 of 2, cached: 2
+[ba/685ec9] SPIKES:BAM2BIGWIG (1)     | 1 of 1, cached: 1
+[ae/b8cef3] PEAKS:CALL_PEAKS (2)      | 2 of 2, cached: 2
+[e5/86cdfa] PEAKS:CALL_BROADPEAKS (2) | 2 of 2, cached: 2
+[50/5345da] PEAKS:FILTER_PEAKS (2)    | 2 of 2, cached: 2
+[e2/50d981] PEAKS:ANNOTATE_PEAKS (1)  | 1 of 1, cached: 1
+[1e/4b4253] QC:FASTQC (16)            | 17 of 17, cached: 17
+[d8/217b13] QC:PHANTOM_PEAK_QUAL (2)  | 2 of 2, cached: 2
+[40/6bb2f9] QC:INSERT_SIZE (3)        | 3 of 3, cached: 3
+[eb/8580c0] QC:PLOT_FINGERPRINT (2)   | 2 of 2, cached: 2
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+
+[60/d4a636] MERGE (20)                | 20 of 20, cached: 20
+[89/940baa] ALIGN (7)                 | 7 of 7, cached: 7
+[98/c60d7e] SPIKES:ALIGN (7)          | 7 of 7, cached: 7
+[54/29e599] SPIKES:CLEAN_SPIKE (5)    | 5 of 5, cached: 5
+[ba/685ec9] SPIKES:BAM2BIGWIG (1)     | 1 of 1, cached: 1
+[ae/b8cef3] PEAKS:CALL_PEAKS (2)      | 2 of 2, cached: 2
+[e5/86cdfa] PEAKS:CALL_BROADPEAKS (2) | 2 of 2, cached: 2
+[50/5345da] PEAKS:FILTER_PEAKS (2)    | 2 of 2, cached: 2
+[78/e3e0ba] PEAKS:ANNOTATE_PEAKS (2)  | 2 of 2, cached: 2
+[ab/cb840b] QC:FASTQC (21)            | 21 of 21, cached: 21
+[d8/217b13] QC:PHANTOM_PEAK_QUAL (2)  | 2 of 2, cached: 2
+[66/298cb5] QC:INSERT_SIZE (5)        | 5 of 5, cached: 5
+[eb/8580c0] QC:PLOT_FINGERPRINT (2)   | 2 of 2, cached: 2
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[1a/b84ca2] ALIGN (9)                 | 9 of 9, cached: 9
+[6d/30283a] SPIKES:ALIGN (9)          | 9 of 9, cached: 9
+[dc/77b5c9] SPIKES:CLEAN_SPIKE (6)    | 7 of 7, cached: 7
+[77/2eb08f] SPIKES:BAM2BIGWIG (2)     | 2 of 2, cached: 2
+[ae/b8cef3] PEAKS:CALL_PEAKS (2)      | 2 of 2, cached: 2
+[e5/86cdfa] PEAKS:CALL_BROADPEAKS (2) | 2 of 2, cached: 2
+[50/5345da] PEAKS:FILTER_PEAKS (2)    | 2 of 2, cached: 2
+[78/e3e0ba] PEAKS:ANNOTATE_PEAKS (2)  | 2 of 2, cached: 2
+[9e/2e3df9] QC:FASTQC (24)            | 24 of 24, cached: 24
+[d8/217b13] QC:PHANTOM_PEAK_QUAL (2)  | 2 of 2, cached: 2
+[3e/bff509] QC:INSERT_SIZE (6)        | 7 of 7, cached: 7
+[eb/8580c0] QC:PLOT_FINGERPRINT (2)   | 2 of 2, cached: 2
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[33/106f9d] ALIGN (10)                | 11 of 11, cached: 11
+[ad/00ca32] SPIKES:ALIGN (11)         | 11 of 11, cached: 11
+[2a/a551d2] SPIKES:CLEAN_SPIKE (8)    | 8 of 8, cached: 8
+[22/b22cd7] SPIKES:BAM2BIGWIG (3)     | 3 of 3, cached: 3
+[97/02b4f1] PEAKS:CALL_PEAKS (3)      | 3 of 3, cached: 3
+[e5/86cdfa] PEAKS:CALL_BROADPEAKS (2) | 2 of 2, cached: 2
+[50/5345da] PEAKS:FILTER_PEAKS (2)    | 2 of 2, cached: 2
+[78/e3e0ba] PEAKS:ANNOTATE_PEAKS (2)  | 2 of 2, cached: 2
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[1c/c5b421] QC:PHANTOM_PEAK_QUAL (3)  | 3 of 3, cached: 3
+[30/2bc60c] QC:INSERT_SIZE (8)        | 9 of 9, cached: 9
+[b3/fa5b41] QC:PLOT_FINGERPRINT (3)   | 3 of 3, cached: 3
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[26/b6c424] ALIGN (12)                | 12 of 12, cached: 12
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[df/a221dc] SPIKES:CLEAN_SPIKE (9)    | 9 of 9, cached: 9
+[22/b22cd7] SPIKES:BAM2BIGWIG (3)     | 3 of 3, cached: 3
+[f3/5a010e] PEAKS:CALL_PEAKS (4)      | 4 of 4, cached: 4
+[e5/86cdfa] PEAKS:CALL_BROADPEAKS (2) | 2 of 3, cached: 2
+[dc/4c4abb] PEAKS:FILTER_PEAKS (4)    | 4 of 4, cached: 4
+[49/c7c423] PEAKS:ANNOTATE_PEAKS (3)  | 3 of 3, cached: 3
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[3e/155fa7] QC:PHANTOM_PEAK_QUAL (4)  | 4 of 4, cached: 4
+[03/c33ba7] QC:INSERT_SIZE (11)       | 11 of 11, cached: 11
+[bd/a7cc81] QC:PLOT_FINGERPRINT (4)   | 4 of 4, cached: 4
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[5e/d48ccb] ALIGN (13)                | 14 of 14, cached: 14
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[73/af1cc3] SPIKES:CLEAN_SPIKE (10)   | 10 of 10, cached: 10
+[a5/eb74c9] SPIKES:BAM2BIGWIG (4)     | 4 of 4, cached: 4
+[f3/5a010e] PEAKS:CALL_PEAKS (4)      | 4 of 4, cached: 4
+[b2/cc6099] PEAKS:CALL_BROADPEAKS (4) | 3 of 4, cached: 3
+[dc/4c4abb] PEAKS:FILTER_PEAKS (4)    | 4 of 4, cached: 4
+[c9/dfd10f] PEAKS:ANNOTATE_PEAKS (4)  | 4 of 4, cached: 4
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[76/1b4d2a] QC:PHANTOM_PEAK_QUAL (5)  | 5 of 5, cached: 5
+[03/c33ba7] QC:INSERT_SIZE (11)       | 11 of 11, cached: 11
+[03/ca6b72] QC:PLOT_FINGERPRINT (5)   | 5 of 5, cached: 5
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[94/8a3ad0] ALIGN (15)                | 16 of 16, cached: 16
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12
+[ce/466309] SPIKES:BAM2BIGWIG (5)     | 5 of 5, cached: 5
+[57/d8b36c] PEAKS:CALL_PEAKS (5)      | 5 of 5, cached: 5
+[1c/ffcbfa] PEAKS:CALL_BROADPEAKS (5) | 4 of 5, cached: 4
+[dc/4c4abb] PEAKS:FILTER_PEAKS (4)    | 4 of 4, cached: 4
+[c9/dfd10f] PEAKS:ANNOTATE_PEAKS (4)  | 4 of 4, cached: 4
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[76/1b4d2a] QC:PHANTOM_PEAK_QUAL (5)  | 5 of 5, cached: 5
+[ed/802c58] QC:INSERT_SIZE (14)       | 14 of 14, cached: 14
+[03/ca6b72] QC:PLOT_FINGERPRINT (5)   | 5 of 5, cached: 5
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam.bai]
+ASSOCIATION: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[e8/12786d] ALIGN (18)                | 18 of 18, cached: 18
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12
+[9c/d672ed] SPIKES:BAM2BIGWIG (7)     | 7 of 7, cached: 7
+[23/9cf435] PEAKS:CALL_PEAKS (6)      | 7 of 7, cached: 7
+[fb/2d56c5] PEAKS:CALL_BROADPEAKS (6) | 6 of 7, cached: 6
+[3b/70e77c] PEAKS:FILTER_PEAKS (6)    | 6 of 6, cached: 6
+[c9/dfd10f] PEAKS:ANNOTATE_PEAKS (4)  | 4 of 4, cached: 4
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[e1/0562c0] QC:PHANTOM_PEAK_QUAL (6)  | 7 of 7, cached: 7
+[9f/a1d15f] QC:INSERT_SIZE (15)       | 16 of 16, cached: 16
+[2b/bdf81a] QC:PLOT_FINGERPRINT (7)   | 6 of 6, cached: 6
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam.bai]
+ASSOCIATION: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam.bai]
+ch_final_al: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[71/dcc635] ALIGN (20)                | 20 of 20, cached: 20
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12
+[b8/bf04b1] SPIKES:BAM2BIGWIG (10)    | 11 of 11, cached: 11
+[23/9cf435] PEAKS:CALL_PEAKS (6)      | 7 of 7, cached: 7
+[74/8e6d62] PEAKS:CALL_BROADPEAKS (3) | 6 of 7, cached: 6
+[19/6516d1] PEAKS:FILTER_PEAKS (7)    | 7 of 7, cached: 7
+[49/4706ef] PEAKS:ANNOTATE_PEAKS (6)  | 6 of 6, cached: 6
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[e1/0562c0] QC:PHANTOM_PEAK_QUAL (6)  | 7 of 7, cached: 7
+[73/106c7b] QC:INSERT_SIZE (19)       | 19 of 19, cached: 19
+[c6/87909b] QC:PLOT_FINGERPRINT (6)   | 7 of 7, cached: 7
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam.bai]
+ASSOCIATION: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam.bai]
+ch_final_al: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:30:55 PM 
+>> identifying nearest features...		 2024-09-12 06:30:56 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:57 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:57 PM 
+>> adding gene annotation...			 2024-09-12 06:31:16 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:16 PM 
+>> done...					 2024-09-12 06:31:16 PM 
+
+>> preparing features information...		 2024-09-12 06:48:15 PM 
+>> identifying nearest features...		 2024-09-12 06:48:17 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:48:18 PM 
+>> assigning genomic annotation...		 2024-09-12 06:48:18 PM 
+>> adding gene annotation...			 2024-09-12 06:48:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:48:39 PM 
+>> done...					 2024-09-12 06:48:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam.bai]
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[72/367042] ALIGN (22)                | 22 of 22, cached: 22
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12
+[c9/1a6676] SPIKES:BAM2BIGWIG (13)    | 13 of 13, cached: 13
+[e1/44d7f0] PEAKS:CALL_PEAKS (8)      | 8 of 8, cached: 8
+[75/a39511] PEAKS:CALL_BROADPEAKS (9) | 7 of 8, cached: 7
+[19/6516d1] PEAKS:FILTER_PEAKS (7)    | 7 of 7, cached: 7
+[bd/6ddd94] PEAKS:ANNOTATE_PEAKS (7)  | 7 of 7, cached: 7
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[e6/75b4f9] QC:PHANTOM_PEAK_QUAL (9)  | 9 of 9, cached: 9
+[17/2f6132] QC:INSERT_SIZE (21)       | 22 of 22, cached: 22
+[f5/951258] QC:PLOT_FINGERPRINT (8)   | 9 of 9, cached: 9
+[-        ] QC:MULTIQC                -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam.bai]
+ASSOCIATION: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam.bai]
+ch_final_al: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:30:55 PM 
+>> identifying nearest features...		 2024-09-12 06:30:56 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:57 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:57 PM 
+>> adding gene annotation...			 2024-09-12 06:31:16 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:16 PM 
+>> done...					 2024-09-12 06:31:16 PM 
+
+>> preparing features information...		 2024-09-12 06:48:15 PM 
+>> identifying nearest features...		 2024-09-12 06:48:17 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:48:18 PM 
+>> assigning genomic annotation...		 2024-09-12 06:48:18 PM 
+>> adding gene annotation...			 2024-09-12 06:48:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:48:39 PM 
+>> done...					 2024-09-12 06:48:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam.bai]
+>> preparing features information...		 2024-09-12 06:27:40 PM 
+>> identifying nearest features...		 2024-09-12 06:27:41 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:27:42 PM 
+>> assigning genomic annotation...		 2024-09-12 06:27:42 PM 
+>> adding gene annotation...			 2024-09-12 06:28:02 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:02 PM 
+>> done...					 2024-09-12 06:28:02 PM 
+
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                 | 22 of 22, cached: 22 ✔
+[32/68cc04] ALIGN (25)                 | 25 of 25, cached: 25 ✔
+[91/d8fde6] SPIKES:ALIGN (12)          | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)    | 12 of 12, cached: 12 ✔
+[e0/9bb2e8] SPIKES:BAM2BIGWIG (17)     | 18 of 18, cached: 18
+[fa/485e1a] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 12 ✔
+[6a/c4cfd1] PEAKS:CALL_BROADPEAKS (12) | 11 of 12, cached: 11
+[3c/582f38] PEAKS:FILTER_PEAKS (11)    | 11 of 11, cached: 11
+[b6/3c2abb] PEAKS:ANNOTATE_PEAKS (8)   | 9 of 9, cached: 9
+[ae/2a3f57] QC:FASTQC (25)             | 25 of 25, cached: 25 ✔
+[9d/858d4b] QC:PHANTOM_PEAK_QUAL (12)  | 12 of 12, cached: 12 ✔
+[b8/e7cb38] QC:INSERT_SIZE (25)        | 25 of 25, cached: 25 ✔
+[29/5bb9dd] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 12 ✔
+[-        ] QC:MULTIQC                 -
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam.bai]
+ASSOCIATION: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam.bai]
+ch_final_al: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:30:55 PM 
+>> identifying nearest features...		 2024-09-12 06:30:56 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:57 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:57 PM 
+>> adding gene annotation...			 2024-09-12 06:31:16 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:16 PM 
+>> done...					 2024-09-12 06:31:16 PM 
+
+>> preparing features information...		 2024-09-12 06:48:15 PM 
+>> identifying nearest features...		 2024-09-12 06:48:17 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:48:18 PM 
+>> assigning genomic annotation...		 2024-09-12 06:48:18 PM 
+>> adding gene annotation...			 2024-09-12 06:48:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:48:39 PM 
+>> done...					 2024-09-12 06:48:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam.bai]
+>> preparing features information...		 2024-09-12 06:27:40 PM 
+>> identifying nearest features...		 2024-09-12 06:27:41 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:27:42 PM 
+>> assigning genomic annotation...		 2024-09-12 06:27:42 PM 
+>> adding gene annotation...			 2024-09-12 06:28:02 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:02 PM 
+>> done...					 2024-09-12 06:28:02 PM 
+
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:31:18 PM 
+>> identifying nearest features...		 2024-09-12 06:31:20 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:31:21 PM 
+>> assigning genomic annotation...		 2024-09-12 06:31:21 PM 
+>> adding gene annotation...			 2024-09-12 06:31:40 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:41 PM 
+>> done...					 2024-09-12 06:31:41 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam.bai]
+>> preparing features information...		 2024-09-12 06:30:18 PM 
+>> identifying nearest features...		 2024-09-12 06:30:19 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:20 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:20 PM 
+>> adding gene annotation...			 2024-09-12 06:30:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:39 PM 
+>> done...					 2024-09-12 06:30:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                 | 22 of 22, cached: 22 ✔
+[32/68cc04] ALIGN (25)                 | 25 of 25, cached: 25 ✔
+[91/d8fde6] SPIKES:ALIGN (12)          | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)    | 12 of 12, cached: 12 ✔
+[e0/9bb2e8] SPIKES:BAM2BIGWIG (17)     | 18 of 18, cached: 18 ✔
+[fa/485e1a] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 12 ✔
+[6a/c4cfd1] PEAKS:CALL_BROADPEAKS (12) | 11 of 12, cached: 11
+[2f/4ba9a8] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 12 ✔
+[58/3d722f] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 12 ✔
+[ae/2a3f57] QC:FASTQC (25)             | 25 of 25, cached: 25 ✔
+[9d/858d4b] QC:PHANTOM_PEAK_QUAL (12)  | 12 of 12, cached: 12 ✔
+[b8/e7cb38] QC:INSERT_SIZE (25)        | 25 of 25, cached: 25 ✔
+[29/5bb9dd] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 12 ✔
+[ee/f9d4b1] QC:MULTIQC (1)             | 1 of 1, cached: 1 ✔
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam.bai]
+ASSOCIATION: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam.bai]
+ch_final_al: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:30:55 PM 
+>> identifying nearest features...		 2024-09-12 06:30:56 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:57 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:57 PM 
+>> adding gene annotation...			 2024-09-12 06:31:16 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:16 PM 
+>> done...					 2024-09-12 06:31:16 PM 
+
+>> preparing features information...		 2024-09-12 06:48:15 PM 
+>> identifying nearest features...		 2024-09-12 06:48:17 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:48:18 PM 
+>> assigning genomic annotation...		 2024-09-12 06:48:18 PM 
+>> adding gene annotation...			 2024-09-12 06:48:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:48:39 PM 
+>> done...					 2024-09-12 06:48:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam.bai]
+>> preparing features information...		 2024-09-12 06:27:40 PM 
+>> identifying nearest features...		 2024-09-12 06:27:41 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:27:42 PM 
+>> assigning genomic annotation...		 2024-09-12 06:27:42 PM 
+>> adding gene annotation...			 2024-09-12 06:28:02 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:02 PM 
+>> done...					 2024-09-12 06:28:02 PM 
+
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:31:18 PM 
+>> identifying nearest features...		 2024-09-12 06:31:20 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:31:21 PM 
+>> assigning genomic annotation...		 2024-09-12 06:31:21 PM 
+>> adding gene annotation...			 2024-09-12 06:31:40 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:41 PM 
+>> done...					 2024-09-12 06:31:41 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam.bai]
+>> preparing features information...		 2024-09-12 06:30:18 PM 
+>> identifying nearest features...		 2024-09-12 06:30:19 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:20 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:20 PM 
+>> adding gene annotation...			 2024-09-12 06:30:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:39 PM 
+>> done...					 2024-09-12 06:30:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:32:12 PM 
+>> identifying nearest features...		 2024-09-12 06:32:14 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:32:15 PM 
+>> assigning genomic annotation...		 2024-09-12 06:32:15 PM 
+>> adding gene annotation...			 2024-09-12 06:32:34 PM 
+>> assigning chromosome lengths			 2024-09-12 06:32:35 PM 
+>> done...					 2024-09-12 06:32:35 PM 
+
+>> preparing features information...		 2024-09-12 06:32:04 PM 
+>> identifying nearest features...		 2024-09-12 06:32:06 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:32:07 PM 
+>> assigning genomic annotation...		 2024-09-12 06:32:07 PM 
+>> adding gene annotation...			 2024-09-12 06:32:25 PM 
+>> assigning chromosome lengths			 2024-09-12 06:32:25 PM 
+>> done...					 2024-09-12 06:32:25 PM 
+
+>> preparing features information...		 2024-09-12 06:31:33 PM 
+>> identifying nearest features...		 2024-09-12 06:31:35 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:31:36 PM 
+>> assigning genomic annotation...		 2024-09-12 06:31:36 PM 
+>> adding gene annotation...			 2024-09-12 06:31:55 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:56 PM 
+>> done...					 2024-09-12 06:31:56 PM 
+
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                 | 22 of 22, cached: 22 ✔
+[32/68cc04] ALIGN (25)                 | 25 of 25, cached: 25 ✔
+[91/d8fde6] SPIKES:ALIGN (12)          | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)    | 12 of 12, cached: 12 ✔
+[e0/9bb2e8] SPIKES:BAM2BIGWIG (17)     | 18 of 18, cached: 18 ✔
+[fa/485e1a] PEAKS:CALL_PEAKS (12)      | 12 of 12, cached: 12 ✔
+[6a/c4cfd1] PEAKS:CALL_BROADPEAKS (12) | 11 of 12, cached: 11
+[2f/4ba9a8] PEAKS:FILTER_PEAKS (12)    | 12 of 12, cached: 12 ✔
+[58/3d722f] PEAKS:ANNOTATE_PEAKS (12)  | 12 of 12, cached: 12 ✔
+[ae/2a3f57] QC:FASTQC (25)             | 25 of 25, cached: 25 ✔
+[9d/858d4b] QC:PHANTOM_PEAK_QUAL (12)  | 12 of 12, cached: 12 ✔
+[b8/e7cb38] QC:INSERT_SIZE (25)        | 25 of 25, cached: 25 ✔
+[29/5bb9dd] QC:PLOT_FINGERPRINT (12)   | 12 of 12, cached: 12 ✔
+[ee/f9d4b1] QC:MULTIQC (1)             | 1 of 1, cached: 1 ✔
+ch_final_al: [[sample:WT_Input, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/93/dad22ca80e55ccddffac48aad15e68/WT_Input.bam.bai]
+ch_final_al: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam]
+ch_final_al: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a4/4101d76f881dd105ec20084d5f70e1/E14-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam]
+>> preparing features information...		 2024-09-12 06:28:22 PM 
+>> identifying nearest features...		 2024-09-12 06:28:23 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:28:24 PM 
+>> assigning genomic annotation...		 2024-09-12 06:28:24 PM 
+>> adding gene annotation...			 2024-09-12 06:28:43 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:43 PM 
+>> done...					 2024-09-12 06:28:43 PM 
+
+ch_final_al: [[sample:E14-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:E14-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam]
+ASSOCIATION: [[sample:E14-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:E14-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/E14-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/E14-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:26:48 PM 
+>> identifying nearest features...		 2024-09-12 06:26:51 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:26:52 PM 
+>> assigning genomic annotation...		 2024-09-12 06:26:52 PM 
+>> adding gene annotation...			 2024-09-12 06:27:13 PM 
+>> assigning chromosome lengths			 2024-09-12 06:27:16 PM 
+>> done...					 2024-09-12 06:27:16 PM 
+
+ch_final_al: [[sample:EZH1KO8-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam]
+ch_final_al: [[sample:EZH2KO3-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam]
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH12KO-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-H3K27me3-rep2-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH12KO-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-SP, SE:false, control:WT_Input, spike:TRUE, is_input:TRUE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:00 PM 
+>> identifying nearest features...		 2024-09-12 06:29:02 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:03 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:03 PM 
+>> adding gene annotation...			 2024-09-12 06:29:21 PM 
+>> assigning chromosome lengths			 2024-09-12 06:29:21 PM 
+>> done...					 2024-09-12 06:29:21 PM 
+
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH2KO3-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH2KO3-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:29:39 PM 
+>> identifying nearest features...		 2024-09-12 06:29:40 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:29:41 PM 
+>> assigning genomic annotation...		 2024-09-12 06:29:41 PM 
+>> adding gene annotation...			 2024-09-12 06:30:00 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:00 PM 
+>> done...					 2024-09-12 06:30:00 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, /hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1YD13-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1YD13-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ch_final_al: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/79/d7cfcf62d062c0f46e5ced7e57c9c6/EZH12KO-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam.bai]
+ASSOCIATION: [[sample:E14-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/94/8a3ad0529f5dffb2d5b3a04645c1c0/E14-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-SP, SE:false, control:WT_Input, spike:TRUE, is_input:FALSE, spike_control:EZH1KO8-EZH1WT9-input-SP, genome:mm10], [target:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP.bam, spike:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-H3K27me3-rep1-SP_spike.bam, ref_mm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP.bam, ref_dm:/hpcscratch/ieo/ieo7015/02aln/EZH1KO8-EZH1WT9-input-SP_spike.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_spike_noSubtract.py]
+ASSOCIATION: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/3a/7f3c4e16145c2af11d7b70dbc32a2b/EZH1KO8-input-NS.bam.bai]
+ch_final_al: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/e8/12786d62ec71eab96417648ede5515/EZH2KO3-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/a3/bdfd53d9976667b4fe29ff8b684187/EZH1KO8-EZH1WT9-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:30:55 PM 
+>> identifying nearest features...		 2024-09-12 06:30:56 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:57 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:57 PM 
+>> adding gene annotation...			 2024-09-12 06:31:16 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:16 PM 
+>> done...					 2024-09-12 06:31:16 PM 
+
+>> preparing features information...		 2024-09-12 06:48:15 PM 
+>> identifying nearest features...		 2024-09-12 06:48:17 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:48:18 PM 
+>> assigning genomic annotation...		 2024-09-12 06:48:18 PM 
+>> adding gene annotation...			 2024-09-12 06:48:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:48:39 PM 
+>> done...					 2024-09-12 06:48:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-input-NS, SE:false, control:WT_Input, spike:FALSE, is_input:TRUE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/71/dcc635dba9fc1f7ba1f51e189baf7a/EZH1KO8-EZH1YD13-input-NS.bam.bai]
+>> preparing features information...		 2024-09-12 06:27:40 PM 
+>> identifying nearest features...		 2024-09-12 06:27:41 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:27:42 PM 
+>> assigning genomic annotation...		 2024-09-12 06:27:42 PM 
+>> adding gene annotation...			 2024-09-12 06:28:02 PM 
+>> assigning chromosome lengths			 2024-09-12 06:28:02 PM 
+>> done...					 2024-09-12 06:28:02 PM 
+
+ch_final_al: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam.bai]
+ASSOCIATION: [[sample:EZH12KO-H3K27me3-rep2-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/b0/45f753c3c8af8cc075f259cd7649c9/EZH12KO-H3K27me3-rep2-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/72/367042254e58911e4f87b1562a77d6/EZH1KO8-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH1KO8-EZH1YD13-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/bf/457793390ac4c016ad9ae3cce0c177/EZH1KO8-EZH1YD13-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+ch_final_al: [[sample:EZH2KO3-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam.bai]
+ASSOCIATION: [[sample:EZH2KO3-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/1e/4c063abe96d0161dda75f5d853c0a2/EZH2KO3-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:31:18 PM 
+>> identifying nearest features...		 2024-09-12 06:31:20 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:31:21 PM 
+>> assigning genomic annotation...		 2024-09-12 06:31:21 PM 
+>> adding gene annotation...			 2024-09-12 06:31:40 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:41 PM 
+>> done...					 2024-09-12 06:31:41 PM 
+
+ch_final_al: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam, /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam.bai]
+>> preparing features information...		 2024-09-12 06:30:18 PM 
+>> identifying nearest features...		 2024-09-12 06:30:19 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:30:20 PM 
+>> assigning genomic annotation...		 2024-09-12 06:30:20 PM 
+>> adding gene annotation...			 2024-09-12 06:30:38 PM 
+>> assigning chromosome lengths			 2024-09-12 06:30:39 PM 
+>> done...					 2024-09-12 06:30:39 PM 
+
+ASSOCIATION: [[sample:EZH1KO8-EZH1WT9-H3K27me3-rep1-NS, SE:false, control:WT_Input, spike:FALSE, is_input:FALSE, spike_control:NOSPIKE, genome:mm10], [target:/hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/work/32/68cc045993f890bbb9d42362c1ae0a/EZH1KO8-EZH1WT9-H3K27me3-rep1-NS.bam], /hpcnfs/scratch/DP/mmonciotti/CHIP_SEQ/scripts/bam2bigwig_noSubtract.py]
+>> preparing features information...		 2024-09-12 06:32:12 PM 
+>> identifying nearest features...		 2024-09-12 06:32:14 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:32:15 PM 
+>> assigning genomic annotation...		 2024-09-12 06:32:15 PM 
+>> adding gene annotation...			 2024-09-12 06:32:34 PM 
+>> assigning chromosome lengths			 2024-09-12 06:32:35 PM 
+>> done...					 2024-09-12 06:32:35 PM 
+
+>> preparing features information...		 2024-09-12 06:32:04 PM 
+>> identifying nearest features...		 2024-09-12 06:32:06 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:32:07 PM 
+>> assigning genomic annotation...		 2024-09-12 06:32:07 PM 
+>> adding gene annotation...			 2024-09-12 06:32:25 PM 
+>> assigning chromosome lengths			 2024-09-12 06:32:25 PM 
+>> done...					 2024-09-12 06:32:25 PM 
+
+>> preparing features information...		 2024-09-12 06:31:33 PM 
+>> identifying nearest features...		 2024-09-12 06:31:35 PM 
+>> calculating distance from peak to TSS...	 2024-09-12 06:31:36 PM 
+>> assigning genomic annotation...		 2024-09-12 06:31:36 PM 
+>> adding gene annotation...			 2024-09-12 06:31:55 PM 
+>> assigning chromosome lengths			 2024-09-12 06:31:56 PM 
+>> done...					 2024-09-12 06:31:56 PM 
+
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[32/68cc04] ALIGN (25)                | 25 of 25, cached: 25 ✔
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12 ✔
+[e0/9bb2e8] SPIKES:BAM2BIGWIG (17)    | 18 of 18, cached: 18 ✔
+[fa/485e1a] PEAKS:CALL_PEAKS (12)     | 12 of 12, cached: 12 ✔
+[74/8e6d62] PEAKS:CALL_BROADPEAKS (3) | 12 of 12, cached: 11 ✔
+[2f/4ba9a8] PEAKS:FILTER_PEAKS (12)   | 12 of 12, cached: 12 ✔
+[58/3d722f] PEAKS:ANNOTATE_PEAKS (12) | 12 of 12, cached: 12 ✔
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[9d/858d4b] QC:PHANTOM_PEAK_QUAL (12) | 12 of 12, cached: 12 ✔
+[b8/e7cb38] QC:INSERT_SIZE (25)       | 25 of 25, cached: 25 ✔
+[29/5bb9dd] QC:PLOT_FINGERPRINT (12)  | 12 of 12, cached: 12 ✔
+[ee/f9d4b1] QC:MULTIQC (1)            | 1 of 1, cached: 1 ✔
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[32/68cc04] ALIGN (25)                | 25 of 25, cached: 25 ✔
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12 ✔
+[e0/9bb2e8] SPIKES:BAM2BIGWIG (17)    | 18 of 18, cached: 18 ✔
+[fa/485e1a] PEAKS:CALL_PEAKS (12)     | 12 of 12, cached: 12 ✔
+[74/8e6d62] PEAKS:CALL_BROADPEAKS (3) | 12 of 12, cached: 11 ✔
+[2f/4ba9a8] PEAKS:FILTER_PEAKS (12)   | 12 of 12, cached: 12 ✔
+[58/3d722f] PEAKS:ANNOTATE_PEAKS (12) | 12 of 12, cached: 12 ✔
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[9d/858d4b] QC:PHANTOM_PEAK_QUAL (12) | 12 of 12, cached: 12 ✔
+[b8/e7cb38] QC:INSERT_SIZE (25)       | 25 of 25, cached: 25 ✔
+[29/5bb9dd] QC:PLOT_FINGERPRINT (12)  | 12 of 12, cached: 12 ✔
+[ee/f9d4b1] QC:MULTIQC (1)            | 1 of 1, cached: 1 ✔
+Executing cleanup commands
+success: true
+dirsToKeepString: 01qc 03peak_macs2 04peak_annot 06bigwig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[32/68cc04] ALIGN (25)                | 25 of 25, cached: 25 ✔
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12 ✔
+[e0/9bb2e8] SPIKES:BAM2BIGWIG (17)    | 18 of 18, cached: 18 ✔
+[fa/485e1a] PEAKS:CALL_PEAKS (12)     | 12 of 12, cached: 12 ✔
+[74/8e6d62] PEAKS:CALL_BROADPEAKS (3) | 12 of 12, cached: 11 ✔
+[2f/4ba9a8] PEAKS:FILTER_PEAKS (12)   | 12 of 12, cached: 12 ✔
+[58/3d722f] PEAKS:ANNOTATE_PEAKS (12) | 12 of 12, cached: 12 ✔
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[9d/858d4b] QC:PHANTOM_PEAK_QUAL (12) | 12 of 12, cached: 12 ✔
+[b8/e7cb38] QC:INSERT_SIZE (25)       | 25 of 25, cached: 25 ✔
+[29/5bb9dd] QC:PLOT_FINGERPRINT (12)  | 12 of 12, cached: 12 ✔
+[ee/f9d4b1] QC:MULTIQC (1)            | 1 of 1, cached: 1 ✔
+Cleanup script completed successfully
+
+
+
+
+executor >  pbspro (1)
+[04/addb12] MERGE (21)                | 22 of 22, cached: 22 ✔
+[32/68cc04] ALIGN (25)                | 25 of 25, cached: 25 ✔
+[91/d8fde6] SPIKES:ALIGN (12)         | 12 of 12, cached: 12 ✔
+[83/2195ba] SPIKES:CLEAN_SPIKE (12)   | 12 of 12, cached: 12 ✔
+[e0/9bb2e8] SPIKES:BAM2BIGWIG (17)    | 18 of 18, cached: 18 ✔
+[fa/485e1a] PEAKS:CALL_PEAKS (12)     | 12 of 12, cached: 12 ✔
+[74/8e6d62] PEAKS:CALL_BROADPEAKS (3) | 12 of 12, cached: 11 ✔
+[2f/4ba9a8] PEAKS:FILTER_PEAKS (12)   | 12 of 12, cached: 12 ✔
+[58/3d722f] PEAKS:ANNOTATE_PEAKS (12) | 12 of 12, cached: 12 ✔
+[ae/2a3f57] QC:FASTQC (25)            | 25 of 25, cached: 25 ✔
+[9d/858d4b] QC:PHANTOM_PEAK_QUAL (12) | 12 of 12, cached: 12 ✔
+[b8/e7cb38] QC:INSERT_SIZE (25)       | 25 of 25, cached: 25 ✔
+[29/5bb9dd] QC:PLOT_FINGERPRINT (12)  | 12 of 12, cached: 12 ✔
+[ee/f9d4b1] QC:MULTIQC (1)            | 1 of 1, cached: 1 ✔
+Cleanup script completed successfully
+
+
+
+Completed at: 13-Sep-2024 15:34:14
+Duration    : 8m 23s
+CPU hours   : 162.8 (99.3% cached)
+Succeeded   : 1
+Cached      : 211
+
+
